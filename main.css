@@ -115,3 +115,9 @@ body{
   }
 
 
+.barkod{
+  position: absolute;
+  right: -468px;
+  width: 430px;
+  top: 497px;
+}

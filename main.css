@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;400;700&display=swap');
+
+*{
+    font-family: 'Inter Tight';
+
+}
+
+.arkaplan{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.hesapMakinesi{
+    width: 500px;
+    height: 900px;
+    display: flex;
+    position: fixed;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.ustYanit{
+    
+    margin-top: 144px;
+    font-size: 50px;
+    width: 100%;
+    text-align: right;
+    padding-right: 66px;
+
+}
+
+.altPanel{
+    margin-bottom: 44px;
+    font-size: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.dot {
+    height: 97px;
+    width: 97px;
+    margin: 7px;
+    background-color: #313131;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    transition: all .2s ease-in-out;
+  }
+
+  .dot:hover {
+   box-shadow: 0px 0px 10px rgb(200, 200, 200);
+   transition: all .2s ease-in-out;
+  }
+
+
+  .genisButon{
+    width: 194px !important;
+    border-radius: 56px !important;
+    justify-content: flex-start;
+    padding-left: 10px;
+    
+  }
+
+
+  .renkTuruncu{
+    background-color: #F69A06;
+  }
+
+  .renkGri{
+    background-color: #A0A0A0;
+    color: black;
+  }

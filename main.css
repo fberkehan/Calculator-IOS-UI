@@ -5,11 +5,26 @@
 
 }
 
+html{
+  background: black;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
 .arkaplan{
+  
+    background-color: rgb(0, 0, 0);
+    z-index: -10;
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color: gray;
     top: 0px;
     left: 0px;
     display: flex;
@@ -17,6 +32,7 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    transform: scale(0.7);
 }
 
 .hesapMakinesi{
@@ -97,3 +113,5 @@
     background-color: #A0A0A0;
     color: black;
   }
+
+
